@@ -27,5 +27,8 @@ Etsydemo::Application.configure do
   # number of complex assets.
   config.assets.debug = true
 
+  # Requires for Devise gem
+  config.action_mailer.default_url_options = { host: 'localhost:3000' }
+
   #Paperclip.options[:command_path] = "/usr/bin/"
 end
